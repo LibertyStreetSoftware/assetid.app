@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AssetManage ID - Scan and View Assets</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f9fc;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 flex flex-col min-h-screen text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-white shadow-sm py-4 sticky top-0 z-50">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold text-indigo-600">assetid.app</a>
+            <nav>
+                <a href="privacy.html" class="text-sm md:text-base font-medium text-gray-600 hover:text-indigo-600 transition-colors">Privacy</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <main class="flex-grow">
+        <section class="py-16 md:py-24 bg-gradient-to-br from-indigo-500 to-purple-600 text-white flex flex-col items-center justify-center text-center px-4">
+            <div class="container mx-auto">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4">Your Assets, On Your Phone.</h1>
+                <p class="text-lg md:text-xl lg:text-2xl font-light mb-8 max-w-2xl">
+                    AssetManage ID is the companion app for AssetManage, allowing you to instantly view asset details on your iOS device.
+                </p>
+                <!-- CTA Button -->
+                <a href="#" class="bg-white text-indigo-600 font-bold py-3 px-8 rounded-full shadow-lg hover:bg-gray-100 transition-colors text-lg">
+                    Download on the App Store
+                </a>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="py-16 md:py-24 bg-white">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Scan. View. Manage.</h2>
+                <p class="text-gray-600 mb-12 max-w-3xl mx-auto">
+                    AssetManage ID simplifies asset management by putting key information at your fingertips.
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-12 max-w-5xl mx-auto">
+                    <!-- Feature 1 -->
+                    <div class="flex flex-col items-center p-6 bg-gray-50 rounded-lg shadow-md transition-transform transform hover:scale-105">
+                        <svg class="w-16 h-16 text-indigo-500 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M12 4.354a4 4 0 100 5.292M12 4.354v5.292m0 0a4 4 0 100 5.292M12 9.646v5.292m0 0a4 4 0 110 5.292m0-5.292a4 4 0 100 5.292"></path>
+                        </svg>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Instant Scan</h3>
+                        <p class="text-gray-600">Use your device's camera to quickly scan barcodes or QR codes on your assets.</p>
+                    </div>
+                    <!-- Feature 2 -->
+                    <div class="flex flex-col items-center p-6 bg-gray-50 rounded-lg shadow-md transition-transform transform hover:scale-105">
+                        <svg class="w-16 h-16 text-indigo-500 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m-5 3a1 1 0 11-2 0 1 1 0 012 0zm-5 0a1 1 0 11-2 0 1 1 0 012 0zm-5 0a1 1 0 11-2 0 1 1 0 012 0zm10 0a1 1 0 11-2 0 1 1 0 012 0z"></path>
+                        </svg>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Detailed View</h3>
+                        <p class="text-gray-600">Access a comprehensive view of asset details, history, and location, right on your screen.</p>
+                    </div>
+                    <!-- Feature 3 -->
+                    <div class="flex flex-col items-center p-6 bg-gray-50 rounded-lg shadow-md transition-transform transform hover:scale-105">
+                        <svg class="w-16 h-16 text-indigo-500 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Seamless Integration</h3>
+                        <p class="text-gray-600">Works seamlessly with your existing AssetManage database to provide real-time information.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white py-8 text-center text-sm text-gray-500">
+        <div class="container mx-auto px-4">
+            <p>&copy; 2025 Liberty Street Software. All rights reserved.</p>
+            <p class="mt-2"><a href="privacy.html" class="hover:text-indigo-600 transition-colors">Privacy Policy</a></p>
+        </div>
+    </footer>
+
+</body>
+</html>
