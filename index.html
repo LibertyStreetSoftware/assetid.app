@@ -1,166 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AssetManage ID - Scan and View Assets</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AssetManage ID - Scan and View Assets</title>
 
-  <meta property="og:title" content="AssetManage ID - AI Home and Business Inventory. For iPhone and iPad"/>
-    <meta property="og:description" content="AssetManage ID is an app for Home and Small Business Inventory, allowing you to instantly view asset details by scanning barcodes and using AI Image Recognition"/>
-    <meta property="og:image" content="https://assetid.app/AssetManageID-Main.png"/>
-    <meta property="og:url" content="https://assetid.app/"/>
-    <meta property="og:type" content="website"/>
-    <meta property="og:site_name" content="AssetManage ID"/>
+    <meta property="og:title" content="AssetManage ID - AI Home and Business Inventory. For iPhone and iPad"/>
+    <meta property="og:description" content="AssetManage ID is an app for Home and Small Business Inventory, allowing you to instantly view asset details by scanning barcodes and using AI Image Recognition"/>
+    <meta property="og:image" content="https://assetid.app/AssetManageID-Main.png"/>
+    <meta property="og:url" content="https://assetid.app/"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:site_name" content="AssetManage ID"/>
 
-    <meta name="twitter:card" content="summary_large_image"/>
-    <meta name="twitter:site" content="@LibertyStreetSoft"/> <meta name="twitter:title" content="AssetManage ID - Scan and View Assets"/>
-    <meta name="twitter:description" content="Instantly view asset details by scanning barcodes and AI image recognition on your iOS device."/>
-    <meta name="twitter:image" content="https://assetid.app/AssetManageID-Main.png"/>
-    <link rel="canonical" href="https://assetid.app/" />
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:site" content="@LibertyStreetSoft"/>
+    <meta name="twitter:title" content="AssetManage ID - Scan and View Assets"/>
+    <meta name="twitter:description" content="Instantly view asset details by scanning barcodes and AI image recognition on your iOS device."/>
+    <meta name="twitter:image" content="https://assetid.app/AssetManageID-Main.png"/>
+    <link rel="canonical" href="https://assetid.app/" />
 
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "AssetManage ID",
-      "applicationCategory": "BusinessApplication",
-      "operatingSystem": "iOS",
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.5",
-        "reviewCount": "2"
-      },
-      "offers": {
-        "@type": "Offer",
-        "price": "0.00",
-        "priceCurrency": "USD"
-      },
-      "url": "https://assetid.app/",
-      "softwareRequirements": "Requires iOS 15.0 or later.",
-      "sameAs": "https://apps.apple.com/app/assetmanage-id/id6751895668",
-      "description": "AssetManage ID is an app for Home and Small Business Inventory, allowing you to instantly view asset details by scanning barcodes and using AI Image Recognition",
-      "screenshot": "https://assetid.app/AssetManageID-Main.png",
-      "publisher": {
-        "@type": "Organization",
-        "name": "Liberty Street Software",
-        "url": "https://www.libertystreet.com/"
-      }
-    }
-    </script>
-    
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: #f7f9fc;
-        }
-    </style>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "AssetManage ID",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "iOS",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.5",
+        "reviewCount": "2"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0.00",
+        "priceCurrency": "USD"
+      },
+      "url": "https://assetid.app/",
+      "softwareRequirements": "Requires iOS 15.0 or later.",
+      "sameAs": "https://apps.apple.com/app/assetmanage-id/id6751895668",
+      "description": "AssetManage ID is an app for Home and Small Business Inventory, allowing you to instantly view asset details by scanning barcodes and using AI Image Recognition",
+      "screenshot": "https://assetid.app/AssetManageID-Main.png",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Liberty Street Software",
+        "url": "https://www.libertystreet.com/"
+      }
+    }
+    </script>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f9fc;
+        }
+    </style>
 </head>
 <body class="bg-gray-50 flex flex-col min-h-screen text-gray-800">
 
-    <!-- Header -->
-    <header class="bg-white shadow-sm py-4 sticky top-0 z-50">
-        <div class="container mx-auto px-4 flex justify-between items-center">
-            <a href="index.html" class="text-2xl font-bold text-indigo-600">assetid.app</a>
-            <nav>
-                <a href="privacy.html" class="text-sm md:text-base font-medium text-gray-600 hover:text-indigo-600 transition-colors">Privacy</a>
-                <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" class="text-sm md:text-base font-medium text-gray-600 hover:text-indigo-600 transition-colors ml-4">Terms of Use</a>
-            </nav>
-        </div>
-    </header>
+        <header class="bg-white shadow-sm py-4 sticky top-0 z-50">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold text-indigo-600">assetid.app</a>
+            <nav>
+                <a href="privacy.html" class="text-sm md:text-base font-medium text-gray-600 hover:text-indigo-600 transition-colors">Privacy</a>
+                <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" class="text-sm md:text-base font-medium text-gray-600 hover:text-indigo-600 transition-colors ml-4">Terms of Use</a>
+            </nav>
+        </div>
+    </header>
 
-    <!-- Main Content Section -->
-    <main class="flex-grow">
-        <section class="py-16 md:py-24 bg-gradient-to-br from-indigo-500 to-purple-600 text-white flex flex-col items-center justify-center text-center px-4">
-            <div class="container mx-auto">
-                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4">Your Assets, On Your iPhone&trade; or iPad&trade;.</h1>
-                <!-- The image is now at 40% width and has a cursor pointer -->
-                <img id="mainImage" src="AssetManageID-Main.png" alt="Main interface of AssetManage ID app" class="w-[40%] mx-auto my-8 md:my-10 rounded-lg shadow-2xl cursor-pointer hover:scale-105 transition-transform" />
-              <div class="flex justify-center">
-    <p class="text-lg md:text-xl lg:text-2xl font-light mb-8 max-w-2xl">
-AssetManage ID: The perfect solution for managing your assets on the go.
-
+        <main class="flex-grow">
+        <section class="py-16 md:py-24 bg-gradient-to-br from-indigo-500 to-purple-600 text-white flex flex-col items-center justify-center text-center px-4">
+            <div class="container mx-auto">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4">Your Assets, On Your iPhone&trade; or iPad&trade;.</h1>
+                                <img id="mainImage" src="AssetManageID-Main.png" alt="Main interface of AssetManage ID app" class="w-[40%] mx-auto my-8 md:my-10 rounded-lg shadow-2xl cursor-pointer hover:scale-105 transition-transform" />
+                <div class="flex justify-center">
+                    <p class="text-lg md:text-xl lg:text-2xl font-light mb-8 max-w-2xl">
+                        AssetManage ID: The perfect solution for managing your assets on the go.
 Designed for iPhone&trade; and iPad&trade;, AssetManage ID allows you to instantly view asset details, perform barcode lookups, and utilize AI asset identification. The robust reporting features provide you with comprehensive insights, making asset management simpler and more efficient than ever.
-        
-    </p>
-</div>
-                <!-- CTA Button -->
-                <a href="https://apps.apple.com/app/assetmanage-id/id6751895668" class="bg-white text-indigo-600 font-bold py-3 px-8 rounded-full shadow-lg hover:bg-gray-100 transition-colors text-lg">
-                    Download on the App Store
-                </a>
-            </div>
-        </section>
+                    </p>
+                </div>
+                                <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
+                    <a href="https://apps.apple.com/app/assetmanage-id/id6751895668" class="bg-white text-indigo-600 font-bold py-3 px-8 rounded-full shadow-lg hover:bg-gray-100 transition-colors text-lg">
+                        Download on the App Store
+                    </a>
+                    <a href="https://www.youtube.com/@AssetManageID" class="bg-white text-red-600 font-bold py-3 px-8 rounded-full shadow-lg hover:bg-gray-100 transition-colors text-lg flex items-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-6 w-6 fill-current">
+                            <path d="M549.655 124.083c-6.281-23.65-24.787-42.156-48.437-48.437C434.928 69.279 288 69.279 288 69.279s-146.928 0-213.218 6.368c-23.649 6.281-42.156 24.787-48.437 48.437C0 178.655 0 256 0 256s0 77.345 6.368 100.995c6.281 23.65 24.787 42.156 48.437 48.437C141.072 442.721 288 442.721 288 442.721s146.928 0 213.218-6.368c23.649-6.281 42.156-24.787 48.437-48.437C576 333.345 576 256 576 256s0-77.345-6.345-100.995zm-317.51 213.504L337.568 256 232.145 186.417v149.169z"/>
+                        </svg>
+                        Watch on YouTube
+                    </a>
+                </div>
+            </div>
+        </section>
 
-        <!-- Full-size Image Overlay (initially hidden) -->
-        <div id="fullSizeOverlay" class="fixed inset-0 bg-black bg-opacity-75 z-50 flex justify-center items-center p-4 hidden">
-            <img id="fullSizeImage" src="AssetManageID-Main.png" alt="Main interface of AssetManage ID app full size" class="max-w-full max-h-full rounded-lg shadow-xl cursor-zoom-out" />
-        </div>
+                <div id="fullSizeOverlay" class="fixed inset-0 bg-black bg-opacity-75 z-50 flex justify-center items-center p-4 hidden">
+            <img id="fullSizeImage" src="AssetManageID-Main.png" alt="Main interface of AssetManage ID app full size" class="max-w-full max-h-full rounded-lg shadow-xl cursor-zoom-out" />
+        </div>
 
-        <!-- Features Section -->
-        <section class="py-16 md:py-24 bg-white">
-            <div class="container mx-auto px-4 text-center">
-                <h2 class="text-3xl md:text-4xl font-bold mb-4">Scan. View. Manage.</h2>
-                <p class="text-gray-600 mb-12 max-w-3xl mx-auto">
-                    AssetManage ID simplifies asset management by putting key information at your fingertips.
-                </p>
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-12 max-w-5xl mx-auto">
-                    <!-- Feature 1 -->
-                    <div class="flex flex-col items-center p-6 bg-gray-50 rounded-lg shadow-md transition-transform transform hover:scale-105">
-                        <svg class="w-16 h-16 text-indigo-500 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M12 4.354a4 4 0 100 5.292M12 4.354v5.292m0 0a4 4 0 100 5.292M12 9.646v5.292m0 0a4 4 0 110 5.292m0-5.292a4 4 0 100 5.292"></path>
-                        </svg>
-                        <h3 class="text-xl font-bold text-gray-800 mb-2">Instant Scan</h3>
-                        <p class="text-gray-600">Use your device's camera to quickly scan barcodes or QR codes on your assets.</p>
-                    </div>
-                    <!-- Feature 2 -->
-                    <div class="flex flex-col items-center p-6 bg-gray-50 rounded-lg shadow-md transition-transform transform hover:scale-105">
-                        <svg class="w-16 h-16 text-indigo-500 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m-5 3a1 1 0 11-2 0 1 1 0 012 0zm-5 0a1 1 0 11-2 0 1 1 0 012 0zm-5 0a1 1 0 11-2 0 1 1 0 012 0zm10 0a1 1 0 11-2 0 1 1 0 012 0z"></path>
-                        </svg>
-                        <h3 class="text-xl font-bold text-gray-800 mb-2">Detailed View</h3>
-                        <p class="text-gray-600">Access a comprehensive view of asset details, history, and location, right on your screen.</p>
-                    </div>
-                    <!-- Feature 3 -->
-                    <div class="flex flex-col items-center p-6 bg-gray-50 rounded-lg shadow-md transition-transform transform hover:scale-105">
-                        <svg class="w-16 h-16 text-indigo-500 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                        </svg>
-                        <h3 class="text-xl font-bold text-gray-800 mb-2">Seamless Integration</h3>
-                        <p class="text-gray-600">Works seamlessly with your existing AssetManage database to provide real-time information.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
+                <section class="py-16 md:py-24 bg-white">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Scan. View. Manage.</h2>
+                <p class="text-gray-600 mb-12 max-w-3xl mx-auto">
+                    AssetManage ID simplifies asset management by putting key information at your fingertips.
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-12 max-w-5xl mx-auto">
+                                        <div class="flex flex-col items-center p-6 bg-gray-50 rounded-lg shadow-md transition-transform transform hover:scale-105">
+                        <svg class="w-16 h-16 text-indigo-500 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M12 4.354a4 4 0 100 5.292M12 4.354v5.292m0 0a4 4 0 100 5.292M12 9.646v5.292m0 0a4 4 0 110 5.292m0-5.292a4 4 0 100 5.292"></path>
+                        </svg>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Instant Scan</h3>
+                        <p class="text-gray-600">Use your device's camera to quickly scan barcodes or QR codes on your assets.</p>
+                    </div>
+                                        <div class="flex flex-col items-center p-6 bg-gray-50 rounded-lg shadow-md transition-transform transform hover:scale-105">
+                        <svg class="w-16 h-16 text-indigo-500 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m-5 3a1 1 0 11-2 0 1 1 0 012 0zm-5 0a1 1 0 11-2 0 1 1 0 012 0zm-5 0a1 1 0 11-2 0 1 1 0 012 0zm10 0a1 1 0 11-2 0 1 1 0 012 0z"></path>
+                        </svg>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Detailed View</h3>
+                        <p class="text-gray-600">Access a comprehensive view of asset details, history, and location, right on your screen.</p>
+                    </div>
+                                        <div class="flex flex-col items-center p-6 bg-gray-50 rounded-lg shadow-md transition-transform transform hover:scale-105">
+                        <svg class="w-16 h-16 text-indigo-500 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Seamless Integration</h3>
+                        <p class="text-gray-600">Works seamlessly with your existing AssetManage database to provide real-time information.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
-    <!-- Footer -->
-    <footer class="bg-white py-8 text-center text-sm text-gray-500">
-        <div class="container mx-auto px-4">
-            <p>&copy; 2025 Liberty Street Software. All rights reserved.</p>
-            <p class="mt-2">
-                <a href="privacy.html" class="hover:text-indigo-600 transition-colors">Privacy Policy</a> | 
-                <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" class="hover:text-indigo-600 transition-colors">Terms of Use</a>
-            </p>
-        </div>
-    </footer>
+        <footer class="bg-white py-8 text-center text-sm text-gray-500">
+        <div class="container mx-auto px-4">
+            <p>&copy; 2025 Liberty Street Software. All rights reserved.</p>
+            <p class="mt-2">
+                <a href="privacy.html" class="hover:text-indigo-600 transition-colors">Privacy Policy</a> | 
+                <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" class="hover:text-indigo-600 transition-colors">Terms of Use</a>
+            </p>
+        </div>
+    </footer>
 
-    <script>
-        const mainImage = document.getElementById('mainImage');
-        const fullSizeOverlay = document.getElementById('fullSizeOverlay');
+    <script>
+        const mainImage = document.getElementById('mainImage');
+        const fullSizeOverlay = document.getElementById('fullSizeOverlay');
 
-        // Show the full-size overlay when the main image is clicked
-        mainImage.addEventListener('click', () => {
-            fullSizeOverlay.classList.remove('hidden');
-        });
+        // Show the full-size overlay when the main image is clicked
+        mainImage.addEventListener('click', () => {
+            fullSizeOverlay.classList.remove('hidden');
+        });
 
-        // Hide the full-size overlay when it's clicked
-        fullSizeOverlay.addEventListener('click', () => {
-            fullSizeOverlay.classList.add('hidden');
-        });
-    </script>
+        // Hide the full-size overlay when it's clicked
+        fullSizeOverlay.addEventListener('click', () => {
+            fullSizeOverlay.classList.add('hidden');
+        });
+    </script>
 
 </body>
 </html>
