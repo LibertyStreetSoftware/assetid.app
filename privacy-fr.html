@@ -9,13 +9,37 @@
     <style>
         body {
             font-family: 'Inter', sans-serif;
-            @apply bg-gray-50 text-gray-800;
+            background-color: #f9fafb;
+            color: #1f2937;
         }
         .container {
-            @apply max-w-4xl mx-auto p-4 sm:p-6 lg:p-8;
+            max-width: 56rem;
+            margin-right: auto;
+            margin-left: auto;
+            padding: 1rem;
         }
         .section-title {
-            @apply text-2xl sm:text-3xl font-bold mt-8 mb-4 border-b pb-2 border-gray-200;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            border-bottom: 1px solid #e5e7eb;
+            padding-bottom: 0.5rem;
+            font-size: 1.5rem;
+            line-height: 2rem;
+            font-weight: 700;
+        }
+        @media (min-width: 640px) {
+            .container {
+                padding: 1.5rem;
+            }
+            .section-title {
+                font-size: 1.875rem;
+                line-height: 2.25rem;
+            }
+        }
+        @media (min-width: 1024px) {
+            .container {
+                padding: 2rem;
+            }
         }
     </style>
 </head>
@@ -94,7 +118,7 @@
         </div>
 
         <div class="mb-8">
-            <h2 class="section-title">7. Nous joindre</h2>
+            <h2 class="section-title">6. Nous joindre</h2>
             <address class="not-italic text-lg leading-relaxed">
                 Liberty Street Software<br>
                 Paul Douglas Dembowski<br>
